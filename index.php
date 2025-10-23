@@ -10,27 +10,13 @@
 <body>
 
   <?php
+$string = "Welcome to our website";
 
-$string = 'Welcome to my website';
+// echo strlen($string);
+// echo str_word_count($string);
+// echo str_replace('Welcome', '3asslama', $string) ;
 
-$name = "samar";
-
-echo 'Your name is: ' ."<b>$name</b>";
-
-/**
- * \n
- * \r
- * \t
- * \$
- * \"
- * \\
- */
-
-echo "<pre>";
-
-echo "Hello \"Guest\"  You Own Us \$100 \n So Please Pay using Paypal  \t or we will close ur account ";
-echo "</pre>";
-
+echo strrev($string);
 ?>
 </body>
 
