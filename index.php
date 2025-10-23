@@ -10,14 +10,11 @@
 <body>
 
   <?php
-// & This page will show hello  world message
-# This is just a demo page
-
-/*
-This page created for training 
-We are done with comments
-*/
-
+  $image = '';
+  $Image = '';
+  $IMAGE = '';
+  $iMage = '';
+  $backgroundImage ='';
 ?>
 
   <p><?php  echo "Hello"; echo " World" ; ?> </p>
