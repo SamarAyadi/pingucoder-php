@@ -15,9 +15,22 @@
 $car = "porsche 911";
 $_car = "porsche 911";
 
+define("COMPANY","GMC");
+
 ?>
 
-  <p><?php  echo "Hello"; echo " World" ; ?> </p>
+  <p><?php  echo "Hello"; echo " World" ;  ?> </p>
+
+  <p> Your Car is : <?php echo $_car ;    ?> </p>
+
+
+  <?php
+   $_car ="BMW";
+
+  ?>
+
+  <p> Your New Car is is : <?php echo $_car ;    ?> </p>
+  <p> Company : <?php echo COMPANY ;    ?> </p>
 </body>
 
 </html>
