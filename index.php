@@ -10,11 +10,11 @@
 <body>
 
   <?php
-  $image = '';
-  $Image = '';
-  $IMAGE = '';
-  $iMage = '';
-  $backgroundImage ='';
+
+
+$car = "porsche 911";
+$_car = "porsche 911";
+
 ?>
 
   <p><?php  echo "Hello"; echo " World" ; ?> </p>
