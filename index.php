@@ -11,10 +11,44 @@
 
   <?php
 
-echo "Hi", ": " ,  "<b>Samar</b>";
-echo "<br>";
+$a = 1;
+$b = 1.2;
+
+///////////////////
+
+$string ="Hello  ";
+$arr = [
+  "white" => "#ffffff",
+  "black" => "#000000",
+  
+  
+];
+
+$isSafe = true;
+
+$isValid = false ;
 
 
+// echo  $string ;
+
+class User {
+  public $name = " Samar";
+  function great(){
+    return 'Hello' . $this->name;
+  }
+}
+
+$user = new User();
+
+// echo $user->great();
+
+
+$var = null;
+
+
+$file = fopen('notes.txt','r');
+
+var_dump( $file , $string , $a );
 ?>
 </body>
 
