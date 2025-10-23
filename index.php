@@ -9,6 +9,17 @@
 
 <body>
 
+  <?php
+// & This page will show hello  world message
+# This is just a demo page
+
+/*
+This page created for training 
+We are done with comments
+*/
+
+?>
+
   <p><?php  echo "Hello"; echo " World" ; ?> </p>
 </body>
 
