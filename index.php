@@ -10,11 +10,22 @@
 <body>
 
   <?php 
-$names = ["Bruce", "Joel", "Francisco", "Walter","Addie"];
+// $ages = ["Frances" => 3, "Mabelle" => 24, "Ruth" => 41, "Louise" => 41];
+ $people = [
+  ["name" => "Frances", "age" => 3 , "Country" => "Norway"],
+  ["name" => "Mabelle", "age" => 24 , "Country" => "Samoa"],
+  ["name" => "Ruth", "age" => 41 , "Country" => "Liechtenstein"],
+  ["name" => "Louise", "age" => 32 , "Country" => "Sweden"],
+ ];
 
-// print_r($names);
-echo $names[0];
 
+ echo $people[2]["Country"];
+ echo "<pre>";
+ print_r($people);
+
+ echo "</pre>"
+
+// echo "Mabelle age is : " . $ages["Mabelle"];
 ?>
 </body>
 
