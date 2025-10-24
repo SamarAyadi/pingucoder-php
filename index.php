@@ -10,28 +10,26 @@
 <body>
 
   <?php
-  
-  $userName = "Alex";
+$x =10;
+$y = 4;
 
-  switch ($userName) {
-    case 'Ahmed':
-      echo "Welcome Ahmed";
-       break;
+echo($x + $y); // Outputs: 14
+echo "<br>";
+echo($x - $y); // Outputs: 6
+echo "<br>";
+echo($x * $y); // Outputs: 40
+echo "<br>";
+echo($x / $y); // Outputs: 2.5
+echo "<br>";
+echo($x % $y); // Outputs: 2
 
-    case 'Lily':
-      echo "Welcome Lily";
-       break;
 
-    case 'Amal':
-      echo "Welcome Amal";
-       break;
 
-    default:
-       echo "Welcome Back";
-      break;
-  }
-  
-  ?>
+
+
+
+
+?>
 </body>
 
 </html>
