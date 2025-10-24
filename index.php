@@ -9,25 +9,29 @@
 
 <body>
 
-  <?php 
- $total =  0;
+  <?php
+  
+  $userName = "Alex";
 
- $result = 0;
+  switch ($userName) {
+    case 'Ahmed':
+      echo "Welcome Ahmed";
+       break;
 
- isset($total) ? $result = $total : $result = 0;
-//  $total ? $result = $total : $result = 0;
+    case 'Lily':
+      echo "Welcome Lily";
+       break;
 
-//  if($total){
-//   $result = $total;
-//  }else{
-//   $result = null;
-//  }
+    case 'Amal':
+      echo "Welcome Amal";
+       break;
 
- echo $result;
- 
- 
- 
- ?>
+    default:
+       echo "Welcome Back";
+      break;
+  }
+  
+  ?>
 </body>
 
 </html>
