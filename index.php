@@ -10,11 +10,13 @@
 <body>
 
   <?php 
- $ages = ["Frances" => 3, "Mabelle" => 24, "Ruth" => 41, "Louise" => 41];
+ $ages = ["Frances" => 3, "Mabelle" => 24, "Fath" => 41, "Louise" => 41];
 
 
 // asort($ages);
-arsort($ages);
+// arsort($ages);
+//  ksort($ages);
+ krsort($ages);
  echo "<pre>";
 
  print_r( $ages);
