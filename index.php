@@ -9,24 +9,19 @@
 
 <body>
 
-  <?php 
-// $ages = ["Frances" => 3, "Mabelle" => 24, "Ruth" => 41, "Louise" => 41];
- $people = [
-  ["name" => "Frances", "age" => 3 , "Country" => "Norway"],
-  ["name" => "Mabelle", "age" => 24 , "Country" => "Samoa"],
-  ["name" => "Ruth", "age" => 41 , "Country" => "Liechtenstein"],
-  ["name" => "Louise", "age" => 32 , "Country" => "Sweden"],
- ];
+  <?php
+ 
+ $names = ["Lela", "Bernard", "Ethan", "Carrie", "Lora"];
 
+//  sort( $names );
+ rsort( $names );
 
- echo $people[2]["Country"];
  echo "<pre>";
- print_r($people);
+ print_r( $names );
 
- echo "</pre>"
+ echo "</pre>";
 
-// echo "Mabelle age is : " . $ages["Mabelle"];
-?>
+ ?>
 </body>
 
 </html>
