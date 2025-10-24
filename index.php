@@ -10,14 +10,14 @@
 <body>
 
   <?php
-$string = "Welcome to our website";
+      $a = 1;
+      $b = 2;
+      $c = "hi";
+      $d= "1";
 
-// echo strlen($string);
-// echo str_word_count($string);
-// echo str_replace('Welcome', '3asslama', $string) ;
+       var_dump( $a >= $b );
 
-echo strrev($string);
-?>
+   ?>
 </body>
 
 </html>
