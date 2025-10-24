@@ -9,19 +9,20 @@
 
 <body>
 
-  <?php
- 
- $names = ["Lela", "Bernard", "Ethan", "Carrie", "Lora"];
+  <?php 
+ $ages = ["Frances" => 3, "Mabelle" => 24, "Ruth" => 41, "Louise" => 41];
 
-//  sort( $names );
- rsort( $names );
 
+// asort($ages);
+arsort($ages);
  echo "<pre>";
- print_r( $names );
 
- echo "</pre>";
+ print_r( $ages);
 
- ?>
+ echo "</pre>"
+
+// echo "Mabelle age is : " . $ages["Mabelle"];
+?>
 </body>
 
 </html>
