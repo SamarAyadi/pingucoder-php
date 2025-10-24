@@ -9,25 +9,11 @@
 
 <body>
 
-  <?php
-$x =10;
-$y = 4;
+  <?php 
+$names = ["Bruce", "Joel", "Francisco", "Walter","Addie"];
 
-echo($x + $y); // Outputs: 14
-echo "<br>";
-echo($x - $y); // Outputs: 6
-echo "<br>";
-echo($x * $y); // Outputs: 40
-echo "<br>";
-echo($x / $y); // Outputs: 2.5
-echo "<br>";
-echo($x % $y); // Outputs: 2
-
-
-
-
-
-
+// print_r($names);
+echo $names[0];
 
 ?>
 </body>
